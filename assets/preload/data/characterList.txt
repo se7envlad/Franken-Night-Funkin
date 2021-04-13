@@ -1,4 +1,5 @@
 bf
+bf-alt
 dad
 gf
 spooky
@@ -15,3 +16,14 @@ bf-pixel
 senpai
 senpai-angry
 spirit
+zardy
+sarvente-dark
+sarvente-sheet
+sarvente-sheet-bf
+sarvente
+sarvente-lucifer
+sarvente_sheet
+sarvente_dark
+sarvente_lucifer
+ruv_sheet
+ruv-sheet
