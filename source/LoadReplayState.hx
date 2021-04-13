@@ -45,7 +45,7 @@ class LoadReplayState extends MusicBeatState
 
         addWeek(['Satin-Panties', 'High', 'Milf'], 4, ['mom']);
         addWeek(['Cocoa', 'Eggnog', 'Winter-Horrorland'], 5, ['parents-christmas', 'parents-christmas', 'monster-christmas']);
-        
+
         addWeek(['Senpai', 'Roses', 'Thorns'], 6, ['senpai', 'senpai', 'spirit']);
 
 
@@ -54,7 +54,7 @@ class LoadReplayState extends MusicBeatState
             var string:String = controlsStrings[i];
             actualNames[i] = string;
 			var rep:Replay = Replay.LoadReplay(string);
-            controlsStrings[i] = string.split("time")[0] + " " + (rep.replay.songDiff == 2 ? "HARD" : rep.replay.songDiff == 1 ? "EASY" : "NORMAL");
+            controlsStrings[i] = string.split("time")[0] + " " + (rep.replay.songDiff == 3 ? "ALT" : rep.replay.songDiff == 2 ? "HARD" : rep.replay.songDiff == 1 ? "EASY" : "NORMAL");
         }
 
         if (controlsStrings.length == 0)
@@ -85,7 +85,7 @@ class LoadReplayState extends MusicBeatState
 		versionShit.setFormat("VCR OSD Mono", 16, FlxColor.WHITE, LEFT, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
 		add(versionShit);
 
-		
+
 		poggerDetails = new FlxText(5, 34, 0, "Replay Details - \nnone", 12);
 		poggerDetails.scrollFactor.set();
 		poggerDetails.setFormat("VCR OSD Mono", 16, FlxColor.WHITE, LEFT, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
@@ -112,22 +112,22 @@ class LoadReplayState extends MusicBeatState
         {
             songs.push(new FreeplayState.SongMetadata(songName, weekNum, songCharacter));
         }
-    
+
         public function addWeek(songs:Array<String>, weekNum:Int, ?songCharacters:Array<String>)
         {
             if (songCharacters == null)
                 songCharacters = ['bf'];
-    
+
             var num:Int = 0;
             for (song in songs)
             {
                 addSong(song, weekNum, songCharacters[num]);
-    
+
                 if (songCharacters.length != 1)
                     num++;
             }
         }
-    
+
 
 	override function update(elapsed:Float)
 	{
@@ -139,7 +139,7 @@ class LoadReplayState extends MusicBeatState
 				changeSelection(-1);
 			if (controls.DOWN_P)
 				changeSelection(1);
-		
+
 
 			if (controls.ACCEPT && grpControls.members[curSelected].text != "No Replays...")
 			{
@@ -165,7 +165,7 @@ class LoadReplayState extends MusicBeatState
 		#if !switch
 		// NGio.logEvent('Fresh');
 		#end
-		
+
 		FlxG.sound.play(Paths.sound('scrollMenu'), 0.4);
 
 		curSelected += change;

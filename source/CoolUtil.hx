@@ -6,7 +6,7 @@ using StringTools;
 
 class CoolUtil
 {
-	public static var difficultyArray:Array<String> = ['EASY', "NORMAL", "HARD"];
+	public static var difficultyArray:Array<String> = ['EASY', "NORMAL", "HARD", "ALT"];
 
 	public static function difficultyString():String
 	{
@@ -24,16 +24,16 @@ class CoolUtil
 
 		return daList;
 	}
-	
+
 	public static function coolStringFile(path:String):Array<String>
 		{
 			var daList:Array<String> = path.trim().split('\n');
-	
+
 			for (i in 0...daList.length)
 			{
 				daList[i] = daList[i].trim();
 			}
-	
+
 			return daList;
 		}
 

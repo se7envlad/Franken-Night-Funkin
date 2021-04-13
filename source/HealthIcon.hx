@@ -12,11 +12,12 @@ class HealthIcon extends FlxSprite
 	public function new(char:String = 'bf', isPlayer:Bool = false)
 	{
 		super();
-		
+
 		loadGraphic(Paths.image('iconGrid'), true, 150, 150);
 
 		antialiasing = true;
 		animation.add('bf', [0, 1], 0, false, isPlayer);
+		animation.add('bf-alt', [0, 1], 0, false, isPlayer);
 		animation.add('bf-car', [0, 1], 0, false, isPlayer);
 		animation.add('bf-christmas', [0, 1], 0, false, isPlayer);
 		animation.add('bf-pixel', [21, 21], 0, false, isPlayer);
@@ -37,6 +38,16 @@ class HealthIcon extends FlxSprite
 		animation.add('parents-christmas', [17, 18], 0, false, isPlayer);
 		animation.add('monster', [19, 20], 0, false, isPlayer);
 		animation.add('monster-christmas', [19, 20], 0, false, isPlayer);
+		animation.add('sarvente_dark', [30, 31], 0, false, isPlayer);
+		animation.add('sarvente-dark', [30, 31], 0, false, isPlayer);
+		animation.add('sarvente_sheet', [30, 31], 0, false, isPlayer);
+		animation.add('sarvente_sheet-bf', [30, 31], 0, false, isPlayer);
+		animation.add('sarvente-sheet', [30, 31], 0, false, isPlayer);
+		animation.add('sarvente-lucifer', [34, 35], 0, false, isPlayer);
+		animation.add('sarvente_lucifer', [34, 35], 0, false, isPlayer);
+		animation.add('ruv_sheet', [32, 33], 0, false, isPlayer);
+		animation.add('ruv-sheet', [32, 33], 0, false, isPlayer);
+		animation.add('zardy', [24, 24], 0, false, isPlayer);
 		animation.play(char);
 		scrollFactor.set();
 	}

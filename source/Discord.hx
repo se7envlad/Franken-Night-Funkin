@@ -37,10 +37,10 @@ class DiscordClient
 	static function onReady()
 	{
 		DiscordRpc.presence({
-			details: "In the Menus",
+			details: "In the Poorly Coded Menus of Franken Night Funkin",
 			state: null,
 			largeImageKey: 'icon',
-			largeImageText: "fridaynightfunkin"
+			largeImageText: "frankennightfunkin"
 		});
 	}
 
