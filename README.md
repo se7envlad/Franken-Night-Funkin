@@ -11,7 +11,7 @@
 Links: **[itch.io page](https://ninja-muffin24.itch.io/funkin) ⋅ [Newgrounds](https://www.newgrounds.com/portal/view/770371) ⋅ [source code on GitHub](https://github.com/ninjamuffin99/Funkin)**
 > Uh oh! Your tryin to kiss ur hot girlfriend, but her MEAN and EVIL dad is trying to KILL you! He's an ex-rockstar, the only way to get to his heart? The power of music... 
 ## Franken Night Funkin
-**Franken Night Funkin** is a mod for Kade Engine, including a mix of different modpacks, and more.
+**Franken Night Funkin** is a modification of Kade Engine, including a mix of different modpacks, and more.
 # Features
 - **Alt Mode**
 	-The idea for it was originally from Sarvente's Mid-Fight Masses. I changed it so it can be applied to all songs (with a minor map change) to play as the enemy.
