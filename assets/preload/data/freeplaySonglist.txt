@@ -1,4 +1,5 @@
 Tutorial:gf:1
+Tutorial-remix:gf:1
 Bopeebo:dad:1
 Fresh:dad:1
 Dadbattle:dad:1
@@ -17,3 +18,8 @@ Winter-Horrorland:monster-christmas:5
 Senpai:senpai:6
 Roses:senpai:6
 Thorns:spirit:6
+Parish:gf:7
+Worship:gf:7
+Zavodila:gf:7
+Gospel:gf:7
+Foolhardy:gf:8
