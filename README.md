@@ -4,16 +4,32 @@
 
 ![GitHub commits since latest release (by date)](https://img.shields.io/github/commits-since/KadeDev/Kade-Engine/latest) ![GitHub repo size](https://img.shields.io/github/repo-size/KadeDev/Kade-Engine) ![Lines of code](https://img.shields.io/tokei/lines/github/KadeDev/Kade-Engine) ![Supported platforms](https://img.shields.io/badge/supported%20platforms-windows%2C%20linux%2C%20html5-blue) ![GitHub all releases](https://img.shields.io/github/downloads/KadeDev/Kade-Engine/total) ![GitHub](https://img.shields.io/github/license/KadeDev/Kade-Engine) ![GitHub release (latest by date including pre-releases)](https://img.shields.io/github/v/release/KadeDev/Kade-Engine?include_prereleases&label=latest%20version) 
 
-# Friday Night Funkin': Kade Engine
+# Franken Night Funkin'
 ## Friday Night Funkin'
 **Friday Night Funkin'** is a rhythm game originally made for Ludum Dare 47 "Stuck In a Loop".
 
 Links: **[itch.io page](https://ninja-muffin24.itch.io/funkin) ⋅ [Newgrounds](https://www.newgrounds.com/portal/view/770371) ⋅ [source code on GitHub](https://github.com/ninjamuffin99/Funkin)**
 > Uh oh! Your tryin to kiss ur hot girlfriend, but her MEAN and EVIL dad is trying to KILL you! He's an ex-rockstar, the only way to get to his heart? The power of music... 
+## Franken Night Funkin
+**Franken Night Funkin** is a mod for Kade Engine, including a mix of different modpacks, and more.
+# Features
+- **Alt Mode**
+	-The idea for it was originally from Sarvente's Mid-Fight Masses. I changed it so it can be applied to all songs (with a minor map change) to play as the enemy.
+# Please don't sue me or something
+## If you want me to remove your mod or take down this github page it's cool, I will just don't hang me );
+# Credits
+### Kade Engine
+### Sarvente's Mid-Fight Masses
+### V.S. Zardy
+
+# Up Next
+### V.S. Hex
+### V.S. Matt
+
+## Everything below is from Kade engine's readme
 
 ## Kade Engine
 **Kade Engine** is a mod for Friday Night Funkin', including a full engine rework, replays, and more.
-
 Links: **[GameBanana mod page](https://gamebanana.com/gamefiles/16761) ⋅ [play in browser](https://funkin.puyo.xyz) ⋅ [latest stable release](https://github.com/KadeDev/Kade-Engine/releases/latest) ⋅ [latest development build (windows)](https://ci.appveyor.com/project/KadeDev/kade-engine-windows/build/artifacts) ⋅ [latest development build (linux)](https://ci.appveyor.com/project/KadeDev/kade-engine-linux/build/artifacts)**
 
 **Please note**: as of right now, linux CI has not been set up yet (the "latest developemnt build (linux)" link does not work). you can download a linux build [here](https://ci.appveyor.com/project/daniel11420/kade-engine-linux/build/artifacts) (temporary link)
