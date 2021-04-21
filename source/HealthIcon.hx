@@ -15,7 +15,7 @@ class HealthIcon extends FlxSprite
 
 		loadGraphic(Paths.image('iconGrid'), true, 150, 150);
 
-		antialiasing = true;
+
 		animation.add('bf', [0, 1], 0, false, isPlayer);
 		animation.add('bf-alt', [0, 1], 0, false, isPlayer);
 		animation.add('bf-car', [0, 1], 0, false, isPlayer);
@@ -49,6 +49,16 @@ class HealthIcon extends FlxSprite
 		animation.add('ruv-sheet', [32, 33], 0, false, isPlayer);
 		animation.add('zardy', [24, 24], 0, false, isPlayer);
 		animation.play(char);
+		switch(char){
+			case 'bf-pixel' | 'senpai' | 'senpai-angry' | 'spirit' | 'gf-pixel':
+				{
+
+				}
+			default:
+				{
+					antialiasing = true;
+				}
+		}
 		scrollFactor.set();
 	}
 
